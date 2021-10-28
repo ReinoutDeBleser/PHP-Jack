@@ -54,6 +54,8 @@
 require './code/Suit.php';
 require './code/Card.php';
 require './code/Deck.php';
+require './code/Player.php';
+require './code/Blackjack.php';
 
 $deck = new Deck();
 $deck->shuffle();

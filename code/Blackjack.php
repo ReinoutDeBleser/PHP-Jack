@@ -17,6 +17,12 @@ class Blackjack {
     {
 
     }
+    public function __construct()
+    {
+        $player = new Player();
+        $dealer = new Player();
+        $deck = new Deck();
+        shuffle($deck);
 
 
 

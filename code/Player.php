@@ -22,10 +22,8 @@ class Player
     public function hasLost(){
 
     }
-    public function __player($deck)
-    {
-        self::Player;
-        
+
+
     }
 
 
