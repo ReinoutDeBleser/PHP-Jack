@@ -18,7 +18,9 @@ class Suit
     private function __construct(string $name) {
         $this->name = $name;
     }
-
+//Declaring class properties or methods as static makes them accessible without needing an instantiation of the class.
+// These can also be accessed statically within an instantiated class object.
+// https://www.php.net/manual/en/language.oop5.static.php
     static function SPADE() : Suit {
         return new Suit(self::TYPE_SPADE);
     }
