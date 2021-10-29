@@ -18,6 +18,8 @@ Day 2:
 -finish the exercise
 -needed some help with understanding $this, but think i understand the purpose now more or less. 
 -focus today will be on getting the different functions working on the actual page. 
+-gotten all basic functionality working 
+-not all as clean as I would like it to be, but there has been some improvement. 
 
 
 ## Expected difficulties Day 1
@@ -28,4 +30,5 @@ style-wise class__construct always before the other functions but after the prop
 $this refers to something present in the class you're defining.
 When making a function in a class using something defined in another you use following format -function name(Class $param)-
 
-Let's go!
+
+
