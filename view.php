@@ -24,15 +24,6 @@
     </form>
 </section>
 
-<section type="text" name ="win">
-    <p type="text" name ="win">Here we show what the player's options are</p>
-    <p name ="winner">Here we show what the player's options are</p>
-    <p name ="score">Here we show your current score</p>
-    <p name ="houseText">Here we show what the House does</p>
-    <p name ="houseScore">Here we show the houses' current score</p>
-
-
-</section>
 <template id="drawnCard">
     <li class="card">
         <h4 class="title">

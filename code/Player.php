@@ -36,6 +36,11 @@ class Player
     {
         return $this->lost;
     }
+
+    public function getPlayerCards() : array
+    {
+        return $this->cards;
+    }
 }
 
 

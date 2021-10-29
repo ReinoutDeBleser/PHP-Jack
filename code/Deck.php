@@ -34,6 +34,7 @@ class Deck
     public function getCards() : array
     {
         return $this->cards;
+
     }
 
     public function drawCard() :? Card

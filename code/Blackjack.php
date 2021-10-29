@@ -25,4 +25,17 @@ class Blackjack{
     {
         return $this->deck;
     }
+    public function show(){
+        echo "player: ".$this->getPlayer()->getScore()."<br>";
+        foreach($this->getPlayer()->getPlayerCards() AS $card) {
+            echo "<div style='font-size:40px'>".$card->getUnicodeCharacter(true)."</div>";
+        }
+        echo "dealer: ".$this->getDealer()->getScore()."<br>";
+        foreach($this->getDealer()->getPlayerCards() AS $card) {
+            echo "<div style='font-size:40px'>".$card->getUnicodeCharacter(true)."</div>";
+        }
+    }
+    public function end(){
+        unset($_SESSION["blackjack"]);
+    }
 }
